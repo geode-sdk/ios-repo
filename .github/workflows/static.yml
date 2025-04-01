@@ -50,7 +50,7 @@ jobs:
             {
               cat "$workdir/control"
               printf 'Filename: ./%s\n' "$deb"
-              #printf 'Size: %d\n' "$(stat -c %s "$deb")"
+              printf 'Size: %d\n' "$(stat -c %s "$deb")"
               printf 'MD5sum: %s\n' "$(md5sum "$deb" | awk '{print $1}')"
               printf '\n\n'
             } >> tmp/Packages
