@@ -48,7 +48,7 @@ jobs:
 
             # append to Packages
             {
-              cat "$workdir/control"
+              cat "$workdir/control" | grep -v "^Installed Size"
               printf 'Filename: ./%s\n' "$deb"
               printf 'Size: %d\n' "$(stat -c %s "$deb")"
               printf 'MD5sum: %s\n' "$(md5sum "$deb" | awk '{print $1}')"
