@@ -44,6 +44,11 @@ jobs:
               sed -i '/^Name: /s/$/ (rootless)/' control
             fi
 
+            if grep -qE "^Architecture: iphoneos-arm64e$" control; then
+              echo "detected roothide !!"
+              sed -i '/^Name: /s/$/ (roothide)/' control
+            fi
+
             popd || exit 1
 
             # append to Packages
