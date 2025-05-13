@@ -5,18 +5,27 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      
+      - name: Setup Pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v5
 
-      - name: build repo
+      - name: Build Repository
         run: |
           output=$(mktemp -d)
           echo "OUTPUT=$output" >> $GITHUB_ENV
@@ -65,13 +74,13 @@ jobs:
           mv "debs" "$output/"
           bzip2 -kz tmp/Packages -c > "$output/Packages.bz2"
 
-      - name: deploy repo
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Upload artifact
         if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ${{ env.OUTPUT }}
-          publish_branch: collect-my-pages
-          user_name: "github-actions[bot]"
-          user_email: "github-actions[bot]@users.noreply.github.com"
-          disable_nojekyll: true
+          path: ${{ env.OUTPUT }}
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        id: deployment
+        uses: actions/deploy-pages@v4
