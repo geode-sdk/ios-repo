@@ -76,6 +76,16 @@ jobs:
           mv "debs" "$output/"
           bzip2 -kz tmp/Packages -c > "$output/Packages.bz2"
 
+      - name: Build AltSource
+        run: |
+          output=${{ env.OUTPUT }}
+          echo "output dir: $output"
+          echo "Building AltSource..."
+          echo "TODO ACTUALLY BUILD ALTSOURCE"
+          mkdir -p "$output/altsource"
+          cp ./altsource/main.json "$output/altsource/"
+          cp ./altsource/pre.json "$output/altsource/"
+
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3

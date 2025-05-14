@@ -1,17 +1,4 @@
 {
-  "name": "Geode",
-  "identifier": "com.geode.altsource",
-  "subtitle": "(Unofficial) Made by Cooper (@coopeeo)",
-  "description": "Geode has come to iOS and iPadOS!",
-  "iconURL": "https://avatars.githubusercontent.com/u/88206422?v=4",
-  "headerURL": "https://coopeeo.xyz/geode-ios-altstorerepo/res/header-swevlybg.jpg",
-  "website": "https://geode-sdk.org",
-  "tintColor": "#272727",
-  "featuredApps": [
-    "com.geode.launcher"
-  ],
-  "apps": [
-    {
       "name": "Geode Launcher",
       "bundleIdentifier": "com.geode.launcher",
       "developerName": "Geode SDK Team",
@@ -69,25 +56,3 @@
       "versionDescription": "## Changelog\r\n- Added Trollstore warning to tell you to enable \"URL Scheme\" in settings\r\n- Removed Nightly being enabled by default\r\n- Added landscape rotation support for phones\r\n- Fixed bug where cancelling the update early for Geode will assume Geode was updated for nightly releases\r\n- Fixed Trollstore version of the launcher crashing when going to color picker\r\n\r\n**Expect bugs!**\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.5.0...v0.5.1",
       "size": 3248860
     }
-  ],
-  "news": [
-    {
-      "title": "Geode is on iOS (for developers)!",
-      "identifier": "geode_first",
-      "caption": "Geode, has come to iOS! Now with a AltSource! Keep in mind the launcher is in the pre-release stage, meaning that it's not ready for normal use.",
-      "date": "2025-04-01T14:27:55Z",
-      "tintColor": "272727",
-      "notify": true,
-      "appID": "com.geode.launcher"
-    },
-    {
-      "title": "Geode is on iOS!",
-      "identifier": "geode_out_to_public",
-      "caption": "Geode has come to iOS on SideStore!",
-      "date": "2025-05-03T16:14:15Z",
-      "tintColor": "272727",
-      "notify": true,
-      "appID": "com.geode.launcher"
-    }
-  ]
-}
