@@ -22,19 +22,19 @@
       "category": "games",
       "screenshots": [
         {
-          "imageURL": "https://raw.githubusercontent.com/coopeeo/coopeeo/main/0.png",
-          "width": 2532,
-          "height": 1170
+          "imageURL": "https://coopeeo.github.io/ios-repo/img/LauncherShotiPhone-1.png",
+          "width": 1242,
+          "height": 2208
         },
         {
-          "imageURL": "https://raw.githubusercontent.com/coopeeo/coopeeo/main/1.png",
-          "width": 2532,
-          "height": 1170
+          "imageURL": "https://coopeeo.github.io/ios-repo/img/LauncherShotiPhone-2.png",
+          "width": 2208,
+          "height": 1242
         },
         {
-          "imageURL": "https://raw.githubusercontent.com/coopeeo/coopeeo/main/2.png",
-          "width": 2532,
-          "height": 1170
+          "imageURL": "https://coopeeo.github.io/ios-repo/img/LauncherShotiPhone-3.png",
+          "width": 2208,
+          "height": 1242
         }
       ],
       "versions": [

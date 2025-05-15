@@ -6,8 +6,9 @@
       "identifier": "geode_first",
       "caption": "Geode, has come to iOS! Now with a AltSource! Keep in mind the launcher is in the pre-release stage, meaning that it's not ready for normal use.",
       "date": "2025-04-01T14:27:55Z",
-      "tintColor": "272727",
+      "tintColor": "#272727",
       "notify": true,
+      "onlyPreRelease": true,
       "appID": "com.geode.launcher"
     },
     {
@@ -15,7 +16,7 @@
       "identifier": "geode_out_to_public",
       "caption": "Geode has come to iOS on SideStore!",
       "date": "2025-05-03T16:14:15Z",
-      "tintColor": "272727",
+      "tintColor": "#272727",
       "notify": true,
       "appID": "com.geode.launcher"
     }

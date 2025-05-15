@@ -81,10 +81,9 @@ jobs:
           output=${{ env.OUTPUT }}
           echo "output dir: $output"
           echo "Building AltSource..."
-          echo "TODO ACTUALLY BUILD ALTSOURCE"
-          mkdir -p "$output/altsource"
-          cp ./altsource/main.json "$output/altsource/"
-          cp ./altsource/pre.json "$output/altsource/"
+          python3 ./.github/scripts/add-altsource.py
+        env:
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
