@@ -81,7 +81,7 @@ jobs:
           output=${{ env.OUTPUT }}
           echo "output dir: $output"
           echo "Building AltSource..."
-          python3 ./.github/scripts/add-altsource.py
+          python3 .github/scripts/build-altsource.py
         env:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
 
