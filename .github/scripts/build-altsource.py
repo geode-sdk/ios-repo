@@ -82,16 +82,15 @@ for release in releases:
         if asset["name"].endswith(".ipa"):
             ver["downloadURL"] = asset["browser_download_url"]
             ver["size"] = asset["size"]
-    
+    if not release["prerelease"]:
+        mainapp["versions"].append(ver)
+    preapp["versions"].append(ver)
 
 main["news"] = [post for post in news["news"] if "onlyPreRelease" not in post or post["onlyPreRelease"] != True]
 pre["news"] = copy.deepcopy(news["news"])
 for d in pre["news"]:
     if "onlyPreRelease" in d:
         d.pop("onlyPreRelease")
-
-
-
 
 with open(altsourcefolder / "main.json", "w") as f:
     f.write(json.dumps(main, indent=4))
