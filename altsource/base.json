@@ -1,6 +1,6 @@
 {
   "name": "Geode",
-  "identifier": "com.geode.altsource",
+  "identifier": "org.geode-sdk.altsource",
   "subtitle": "Offically on iOS",
   "description": "Geode has come to iOS and iPadOS!",
   "iconURL": "https://coopeeo.github.io/ios-repo/img/AltSourceIcon.png",
