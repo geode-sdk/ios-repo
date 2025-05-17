@@ -34,8 +34,6 @@ jobs:
           # copy repo template
           cp -r ./public/* "$output/"
 
-          cp "$output/img/AppIcon.png" "$output/CydiaIcon.png"
-
           rm Packages || true 2>/dev/null
 
           mkdir -p tmp

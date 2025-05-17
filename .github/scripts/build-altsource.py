@@ -72,8 +72,17 @@ for release in releases:
             preapp["appPermissions"]["entitlements"] = list(entitlements)
             preapp["appPermissions"]["privacy"] = privacy
         
+    makefile = requests.get(f"https://raw.githubusercontent.com/geode-sdk/ios-launcher/refs/tags/{release['tag_name']}/Makefile").text
     ver = {}
+    ver["minOSVersion"] = makefile.split("\nTARGET := ")[1].split("\n")[0].split(":")[3]
     ver["version"] = release["tag_name"]
+    ver["localizedDescription"] = release["body"]
+    ver["date"] = release["published_at"]
+    for asset in release["assets"]:
+        if asset["name"].endswith(".ipa"):
+            ver["downloadURL"] = asset["browser_download_url"]
+            ver["size"] = asset["size"]
+    
 
 main["news"] = [post for post in news["news"] if "onlyPreRelease" not in post or post["onlyPreRelease"] != True]
 pre["news"] = copy.deepcopy(news["news"])
