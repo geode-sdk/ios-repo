@@ -75,9 +75,9 @@ for release in releases:
     ver = {}
     ver["version"] = release["tag_name"]
 
-mainapp["news"] = [post for post in news["news"] if "onlyPreRelease" not in post or post["onlyPreRelease"] != True]
-preapp["news"] = copy.deepcopy(news["news"])
-for d in preapp["news"]:
+main["news"] = [post for post in news["news"] if "onlyPreRelease" not in post or post["onlyPreRelease"] != True]
+pre["news"] = copy.deepcopy(news["news"])
+for d in pre["news"]:
     if "onlyPreRelease" in d:
         d.pop("onlyPreRelease")
 
