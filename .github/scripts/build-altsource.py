@@ -17,11 +17,11 @@ base = {}
 baseapp = {}
 news = {}
 
-with open("altsource/base.json") as f:
+with open("altsource/base.json", "r") as f:
     base = json.load(f)
-with open("altsource/baseapp.json") as f:
+with open("altsource/baseapp.json", "r") as f:
     baseapp = json.load(f)
-with open("altsource/news.json") as f:
+with open("altsource/news.json", "r") as f:
     news = json.load(f)
 
 base["apps"] = []
@@ -64,3 +64,10 @@ for release in releases:
         
     ver = {}
     ver["version"] = release["tag_name"]
+
+
+
+with open(altsourcefolder / "main.json", "w") as f:
+    f.write(json.dumps(main, indent=4))
+with open(altsourcefolder / "pre.json", "w") as f:
+    f.write(json.dumps(pre, indent=4))
