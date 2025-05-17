@@ -9,17 +9,17 @@
       "category": "games",
       "screenshots": [
         {
-          "imageURL": "https://coopeeo.github.io/ios-repo/img/LauncherShotiPhone-1.png",
+          "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-1.png",
           "width": 1242,
           "height": 2208
         },
         {
-          "imageURL": "https://coopeeo.github.io/ios-repo/img/LauncherShotiPhone-2.png",
+          "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-2.png",
           "width": 2208,
           "height": 1242
         },
         {
-          "imageURL": "https://coopeeo.github.io/ios-repo/img/LauncherShotiPhone-3.png",
+          "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-3.png",
           "width": 2208,
           "height": 1242
         }

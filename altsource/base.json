@@ -3,8 +3,8 @@
   "identifier": "org.geode-sdk.altsource",
   "subtitle": "Offically on iOS",
   "description": "Geode has come to iOS and iPadOS!",
-  "iconURL": "https://coopeeo.github.io/ios-repo/img/AltSourceIcon.png",
-  "headerURL": "https://coopeeo.github.io/ios-repo/img/AltSourceHeader-SwevlyBG.jpg",
+  "iconURL": "https://ios-repo.geode-sdk.org/img/AltSourceIcon.png",
+  "headerURL": "https://ios-repo.geode-sdk.org/img/AltSourceHeader-SwevlyBG.jpg",
   "website": "https://geode-sdk.org",
   "tintColor": "#272727",
   "featuredApps": [

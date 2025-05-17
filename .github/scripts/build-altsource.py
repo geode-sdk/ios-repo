@@ -41,7 +41,7 @@ def send_authenticated_request(url, headers=None):
     if headers is None:
         headers = {}
     headers['Authorization'] = f'Bearer {os.getenv("gh_token")}'
-    headers['User-Agent'] = 'coopeeo' # Change this later
+    headers['User-Agent'] = 'geode-sdk' # Change this later
     response = requests.get(url, headers=headers)
     response.raise_for_status()
     return response
