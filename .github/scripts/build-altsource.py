@@ -47,8 +47,8 @@ def send_authenticated_request(url, headers=None):
 # Main
 releases = send_authenticated_request("https://api.github.com/repos/geode-sdk/ios-launcher/releases").json()
 
-firstrel = False
-firstprerel = False
+firstrel = True
+firstprerel = True
 
 for release in releases:
     if firstprerel or firstrel:
@@ -61,6 +61,14 @@ for release in releases:
         for privacykey in privacyplist:
             if (privacykey.endswith("UsageDescription")):
                 privacy[privacykey] = privacyplist[privacykey]
+        if firstrel:
+            firstrel = False
+            mainapp["appPermissions"]["entitlements"] = entitlements
+            mainapp["appPermissions"]["privacy"] = privacy
+        if firstprerel:
+            firstprerel = False
+            preapp["appPermissions"]["entitlements"] = entitlements
+            preapp["appPermissions"]["privacy"] = privacy
         
     ver = {}
     ver["version"] = release["tag_name"]
