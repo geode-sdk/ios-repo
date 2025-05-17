@@ -63,11 +63,11 @@ for release in releases:
                 privacy[privacykey] = privacyplist[privacykey]
         if firstrel:
             firstrel = False
-            mainapp["appPermissions"]["entitlements"] = entitlements
+            mainapp["appPermissions"]["entitlements"] = list(entitlements)
             mainapp["appPermissions"]["privacy"] = privacy
         if firstprerel:
             firstprerel = False
-            preapp["appPermissions"]["entitlements"] = entitlements
+            preapp["appPermissions"]["entitlements"] = list(entitlements)
             preapp["appPermissions"]["privacy"] = privacy
         
     ver = {}
