@@ -75,7 +75,7 @@ for release in releases:
     makefile = requests.get(f"https://raw.githubusercontent.com/geode-sdk/ios-launcher/refs/tags/{release['tag_name']}/Makefile").text
     ver = {}
     ver["minOSVersion"] = makefile.split("\nTARGET := ")[1].split("\n")[0].split(":")[3]
-    ver["version"] = release["tag_name"]
+    ver["version"] = release["tag_name"].split("v")[1]
     ver["localizedDescription"] = release["body"]
     ver["date"] = release["published_at"]
     for asset in release["assets"]:
