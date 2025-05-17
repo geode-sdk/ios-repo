@@ -78,7 +78,7 @@ for release in releases:
 mainapp["news"] = [post for post in news["news"] if "onlyPreRelease" not in post or post["onlyPreRelease"] != True]
 preapp["news"] = copy.deepcopy(news["news"])
 for d in preapp["news"]:
-    if d["onlyPreRelease"]:
+    if "onlyPreRelease" in d:
         d.remove("onlyPreRelease")
 
 
