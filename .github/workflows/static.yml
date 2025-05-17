@@ -82,6 +82,7 @@ jobs:
           python3 .github/scripts/build-altsource.py
         env:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ github.repository_owner }}
 
       - name: Upload artifact
         if: github.ref == 'refs/heads/main'
