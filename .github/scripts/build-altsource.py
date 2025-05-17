@@ -76,7 +76,7 @@ for release in releases:
     ver["version"] = release["tag_name"]
 
 mainapp["news"] = [post for post in news["news"] if "onlyPreRelease" not in post or post["onlyPreRelease"] != True]
-preapp["news"] = news["news"].deepcopy()
+preapp["news"] = copy.deepcopy(news["news"])
 for d in preapp["news"]:
     if preapp["news"]["onlyPreRelease"]:
         d.remove("onlyPreRelease")
