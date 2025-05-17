@@ -34,6 +34,8 @@ preapp = copy.deepcopy(baseapp)
 main["apps"].append(mainapp)
 pre["apps"].append(preapp)
 
+preapp["name"] = "Geode (Pre-Release)"
+
 # Functions
 def send_authenticated_request(url, headers=None):
     if headers is None:
@@ -72,6 +74,13 @@ for release in releases:
         
     ver = {}
     ver["version"] = release["tag_name"]
+
+mainapp["news"] = [post for post in news["news"] if post["onlyPreRelease"] != True]
+preapp["news"] = news["news"].deepcopy()
+for d in preapp["news"]:
+    if preapp["news"]["onlyPreRelease"]:
+        d.remove("onlyPreRelease")
+
 
 
 
