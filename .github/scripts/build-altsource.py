@@ -13,9 +13,16 @@ import copy
 temp_output = Path(os.getenv('OUTPUT'))
 altsourcefolder = temp_output / "altsource"
 altsourcefolder.mkdir(parents=True, exist_ok=True)
-base = json.load(Path("altsource/base.json"))
-baseapp = json.load(Path("altsource/baseapp.json"))
-news = json.load(Path("altsource/news.json"))
+base = {}
+baseapp = {}
+news = {}
+
+with open("altsource/base.json") as f:
+    base = json.load(f)
+with open("altsource/baseapp.json") as f:
+    baseapp = json.load(f)
+with open("altsource/news.json") as f:
+    news = json.load(f)
 
 base["apps"] = []
 baseapp["versions"] = []
