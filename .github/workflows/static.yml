@@ -5,25 +5,16 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
-
 jobs:
   deploy:
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
-      - name: Setup Pages
-        if: github.ref == 'refs/heads/main'
-        uses: actions/configure-pages@v5
 
       - name: Build Repository
         run: |
@@ -84,13 +75,13 @@ jobs:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
           REPO_OWNER: ${{ github.repository_owner }}
 
-      - name: Upload artifact
+      - name: Submit to branch for pages to collect
+        uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
-        uses: actions/upload-pages-artifact@v3
         with:
-          path: ${{ env.OUTPUT }}
-
-      - name: Deploy to GitHub Pages
-        if: github.ref == 'refs/heads/main'
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ env.OUTPUT }}
+          publish_branch: collect-my-pages
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
+          disable_nojekyll: true
