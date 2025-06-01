@@ -19,41 +19,103 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./CydiaIcon.png" type="image/png" />
   </head>
   <body>
     <div class="repo-header">
       <div class="container">
         <div class="d-flex align-items-center">
-          <img src="CydiaIcon.png" alt="Repository Icon" />
+          <img src="./CydiaIcon.png" alt="Geode App/Tweak Icon" />
           <h1>Geode</h1>
         </div>
       </div>
     </div>
 
     <div class="container mb-4">
-      <div class="card">
+      <div class="card mb-2">
         <div class="card-body">
-          <h5 class="card-title mb-3">Geode</h5>
-          <p class="card-text mb-4">
+          <h4 class="card-title mb-3">Repository</h4>
+          <p class="card-text mb-3">
             An apt repository for installing the Geode tweak.
           </p>
           <div class="d-flex flex-wrap gap-2">
-            <a class="btn btn-primary" href="sileo://source/https://ios-repo.geode-sdk.org"
-              >Add to Sileo</a
-            >
+            <a 
+              class="btn btn-primary"
+              href="sileo://source/https://ios-repo.geode-sdk.org">
+              Add to Sileo
+            </a>
             <a
               class="btn btn-primary"
-              href="zbra://sources/add/https://ios-repo.geode-sdk.org"
-              >Add to Zebra</a
-            >
-            <a class="btn btn-primary" href="apt-repo://https://ios-repo.geode-sdk.org"
-              >Add to Saily</a
-            >
+              href="zbra://sources/add/https://ios-repo.geode-sdk.org">
+              Add to Zebra
+            </a>
             <a
               class="btn btn-primary"
-              href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ios-repo.geode-sdk.org"
-              >Add to Cydia</a
-            >
+              href="apt-repo://https://ios-repo.geode-sdk.org">
+              Add to Saily
+            </a>
+            <a
+              class="btn btn-primary"
+              href="cydia://url/https://cydia.saurik.com/api/share#?source=https://ios-repo.geode-sdk.org">
+              Add to Cydia
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card mb-2">
+        <div class="card-body">
+          <h4 class="card-title mb-3">AltSource</h4>
+          <p class="card-text mb-3">
+            An AltSource for installing the Geode Launcher app via AltStore/SideStore.
+          </p>
+          <div class="d-flex flex-wrap gap-2">
+            <a 
+              class="btn btn-primary"
+              href="altstore://source?URL=https://ios-repo.geode-sdk.org/altsource/main.json">
+              Add to AltStore
+            </a>
+            <a
+              class="btn btn-primary"
+              href="sidestore://source?URL=https://ios-repo.geode-sdk.org/altsource/main.json">
+              Add to SideStore
+            </a>
+            <a
+              class="btn btn-primary"
+              href="./altsource/main.json">
+              AltSource
+            </a>
+            <a
+              class="btn btn-primary"
+              href="//github.com/geode-sdk/ios-launcher/releases/latest/">
+              Latest Release
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-2">
+        <div class="card-body">
+          <h4 class="card-title mb-3">AltSource (Pre-Release)</h4>
+          <p class="card-text mb-3">
+            An AltSource for installing the Geode Launcher app via AltStore/SideStore.
+          </p>
+          <div class="d-flex flex-wrap gap-2">
+            <a 
+              class="btn btn-primary"
+              href="altstore://source?URL=https://ios-repo.geode-sdk.org/altsource/pre.json">
+              Add to AltStore
+            </a>
+            <a
+              class="btn btn-primary"
+              href="sidestore://source?URL=https://ios-repo.geode-sdk.org/altsource/pre.json">
+              Add to SideStore
+            </a>
+            <a
+              class="btn btn-primary"
+              href="./altsource/pre.json">
+              AltSource
+            </a>
           </div>
         </div>
       </div>

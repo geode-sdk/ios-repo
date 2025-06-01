@@ -1,0 +1,79 @@
+{
+    "name": "Geode",
+    "identifier": "org.geode-sdk.altsource",
+    "subtitle": "Offically on iOS",
+    "description": "Geode has come to iOS and iPadOS!",
+    "iconURL": "https://ios-repo.geode-sdk.org/img/AltSourceIcon.png",
+    "headerURL": "https://ios-repo.geode-sdk.org/img/AltSourceHeader-SwevlyBG.jpg",
+    "website": "https://geode-sdk.org",
+    "tintColor": "#272727",
+    "featuredApps": [
+        "com.geode.launcher"
+    ],
+    "apps": [
+        {
+            "name": "Geode Launcher",
+            "bundleIdentifier": "com.geode.launcher",
+            "developerName": "Geode SDK Team",
+            "subtitle": "Geode, now on iOS",
+            "localizedDescription": "Geode, has come to iOS!",
+            "iconURL": "https://raw.githubusercontent.com/geode-sdk/ios-launcher/refs/heads/main/Resources/1024.png",
+            "tintColor": "#272727",
+            "category": "games",
+            "screenshots": [
+                {
+                    "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-1.png",
+                    "width": 1242,
+                    "height": 2208
+                },
+                {
+                    "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-2.png",
+                    "width": 2208,
+                    "height": 1242
+                },
+                {
+                    "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-3.png",
+                    "width": 2208,
+                    "height": 1242
+                }
+            ],
+            "versions": [
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.5.1",
+                    "localizedDescription": "## Changelog\r\n- Added Trollstore warning to tell you to enable \"URL Scheme\" in settings\r\n- Removed Nightly being enabled by default\r\n- Added landscape rotation support for phones\r\n- Fixed bug where cancelling the update early for Geode will assume Geode was updated for nightly releases\r\n- Fixed Trollstore version of the launcher crashing when going to color picker\r\n\r\n**Expect bugs!**\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.5.0...v0.5.1",
+                    "date": "2025-05-03T16:14:15Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.5.1/com.geode.launcher_0.5.1.ipa",
+                    "size": 3248860
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "application-identifier",
+                    "com.apple.developer.kernel.extended-virtual-addressing",
+                    "com.apple.developer.kernel.increased-memory-limit",
+                    "com.apple.security.application-groups",
+                    "get-task-allow",
+                    "com.apple.private.MobileContainerManager.allowed",
+                    "platform-application"
+                ],
+                "privacy": {
+                    "NSMicrophoneUsageDescription": "A mod you are using is requesting this permission.",
+                    "NSCameraUsageDescription": "A mod you are using is requesting this permission.",
+                    "NSLocalNetworkUsageDescription": "This permission is needed for accessing the JIT server."
+                }
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "Geode is on iOS!",
+            "identifier": "geode_out_to_public",
+            "caption": "Geode has come to iOS on SideStore!",
+            "date": "2025-05-03T16:14:15Z",
+            "tintColor": "#272727",
+            "notify": true,
+            "appID": "com.geode.launcher"
+        }
+    ]
+}

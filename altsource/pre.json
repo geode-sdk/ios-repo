@@ -1,0 +1,144 @@
+{
+    "name": "Geode",
+    "identifier": "org.geode-sdk.altsource",
+    "subtitle": "Offically on iOS",
+    "description": "Geode has come to iOS and iPadOS!",
+    "iconURL": "https://ios-repo.geode-sdk.org/img/AltSourceIcon.png",
+    "headerURL": "https://ios-repo.geode-sdk.org/img/AltSourceHeader-SwevlyBG.jpg",
+    "website": "https://geode-sdk.org",
+    "tintColor": "#272727",
+    "featuredApps": [
+        "com.geode.launcher"
+    ],
+    "apps": [
+        {
+            "name": "Geode (Pre-Release)",
+            "bundleIdentifier": "com.geode.launcher",
+            "developerName": "Geode SDK Team",
+            "subtitle": "Geode, now on iOS",
+            "localizedDescription": "Geode, has come to iOS!",
+            "iconURL": "https://raw.githubusercontent.com/geode-sdk/ios-launcher/refs/heads/main/Resources/1024.png",
+            "tintColor": "#272727",
+            "category": "games",
+            "screenshots": [
+                {
+                    "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-1.png",
+                    "width": 1242,
+                    "height": 2208
+                },
+                {
+                    "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-2.png",
+                    "width": 2208,
+                    "height": 1242
+                },
+                {
+                    "imageURL": "https://ios-repo.geode-sdk.org/img/LauncherShotiPhone-3.png",
+                    "width": 2208,
+                    "height": 1242
+                }
+            ],
+            "versions": [
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.5.1",
+                    "localizedDescription": "## Changelog\r\n- Added Trollstore warning to tell you to enable \"URL Scheme\" in settings\r\n- Removed Nightly being enabled by default\r\n- Added landscape rotation support for phones\r\n- Fixed bug where cancelling the update early for Geode will assume Geode was updated for nightly releases\r\n- Fixed Trollstore version of the launcher crashing when going to color picker\r\n\r\n**Expect bugs!**\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.5.0...v0.5.1",
+                    "date": "2025-05-03T16:14:15Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.5.1/com.geode.launcher_0.5.1.ipa",
+                    "size": 3248860
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.5.0",
+                    "localizedDescription": "## Changelog\r\n- Replaced Auto JIT with **JIT Enabler**\r\n  - **JIT Enabler** allows you to choose how you launch Geode with JIT!\r\n  - If some options are missing or none of the options work for you, simply use \"Manual reopen with JIT\".\r\n- Added a redirect button if a launcher update is available\r\n- Added an update check to the setup process\r\n- Added a check to TrollStore version if the documents folder can be found\r\n- Allowed uploading multiple mods in web server\r\n- Added custom launch arguments (For Developers)\r\n- Added an indicator for when app logs will clear\r\n- Allowed opening .geode files to import mods\r\n- Fixed automatic launch soft-locking when you go to settings\r\n- Fixed IPA extraction failure bug (https://github.com/geode-sdk/ios-launcher/issues/15)\r\n- Fixed SideStore deactivation permission bug (https://github.com/geode-sdk/ios-launcher/issues/20, https://github.com/geode-sdk/ios-launcher/issues/22)\r\n- Fixed issue with documents folder in TrollStore version of the launcher sometimes not being found\r\n\r\n**Expect bugs!**\r\n\r\nDo NOT ask for help for the launcher. This is meant for developer use only.\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.4.0...v0.5.0",
+                    "date": "2025-04-18T22:41:27Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.5.0/com.geode.launcher_0.5.0.ipa",
+                    "size": 2974464
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.4.0",
+                    "localizedDescription": "## Changelog\r\n- Added LiveContainer Support (Experimental)\r\n  - For LiveContainer, you **must** enable the following in the app settings:\r\n  - `Launch with JIT`\r\n  - `Don't Inject TweakLoader`\r\n  - `Don't Load TweakLoader`\r\n- Added more logging to launch process\r\n- Removed \"Use Tweak instead of JIT\" option (Checks if you're using the TIPA version instead)\r\n- Fixed credits footer placement\r\n- Fixed app logs logging in GD documents directory\r\n\r\n**Expect bugs!**\r\n\r\nDo NOT ask for help for the launcher. This is meant for developer use only.\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.3.2...v0.4.0",
+                    "date": "2025-04-09T22:27:47Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.4.0/com.geode.launcher_0.4.0.ipa",
+                    "size": 2965101
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.3.2",
+                    "localizedDescription": "## Changelog\r\n- Fix Trollstore version from not installing Geode correctly if Geode has never been installed before\r\n\r\n**Expect bugs!**\r\n\r\nDo NOT ask for help for the launcher. This is meant for developer use only.\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.3.1...v0.3.2",
+                    "date": "2025-04-06T15:55:22Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.3.2/com.geode.launcher_0.3.2.ipa",
+                    "size": 2973169
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.3.1",
+                    "localizedDescription": "## Changelog\r\n- Added Auto JIT back\r\n\r\n**Expect bugs!**\r\n\r\nDo NOT ask for help for the launcher. This is meant for developer use only.\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.3.0...v0.3.1",
+                    "date": "2025-04-06T15:01:37Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.3.1/com.geode.launcher_0.3.1.ipa",
+                    "size": 2973084
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.3.0",
+                    "localizedDescription": "## Changelog\r\n* Added overriding the theme for Geode in settings (System, Light, Dark)\r\n* Disabled Auto JIT due to many people misunderstanding it (Use StikJIT instead!)\r\n* Added live-refreshing logs to web server\r\n* Allowed web server to be running even when Geometry Dash is running (IPA version only)\r\n* Fixed import IPA from not importing if GD isn't verified\r\n* Fixed web server not replacing Geode.ios.dylib\r\n* Fixed sideloadly not being able to sideload Geode (https://github.com/geode-sdk/ios-launcher/issues/7)\r\n* Add documentation about building on Linux (by @Soccera1 in https://github.com/geode-sdk/ios-launcher/pull/8)\r\n* Add warning for sideloaders that use enterprise certificates (by @slideglide in https://github.com/geode-sdk/ios-launcher/pull/11)\r\n\r\n## New Contributors\r\n* @Soccera1 made their first contribution in https://github.com/geode-sdk/ios-launcher/pull/8\r\n* @slideglide made their first contribution in https://github.com/geode-sdk/ios-launcher/pull/11\r\n\r\n**Expect bugs!**\r\n\r\nDo NOT ask for help for the launcher. This is meant for developer use only.\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.2.0...v0.3.0",
+                    "date": "2025-04-06T02:41:22Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.3.0/com.geode.launcher_0.3.0.ipa",
+                    "size": 2972606
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.2.0",
+                    "localizedDescription": "## Changelog\r\n- Added update checker for pre-release (will be reverted after stable release)\r\n- Changed the geode version to use the one in saved files\r\n- Fixed Entitlements for TrollStore version\r\n- Changed JIT failure text\r\n- Changed Warning text\r\n- Fixed Automatic Updating for Nightly\r\n- Fix bug with Developer Setting Buttons not working properly\r\n\r\n**Expect bugs!**\r\n\r\nDo NOT ask for help for the launcher. This is meant for developer use only.\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.1.0...v0.2.0",
+                    "date": "2025-04-03T20:08:07Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.2.0/com.geode.launcher_0.2.0.ipa",
+                    "size": 2963694
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "0.1.0",
+                    "localizedDescription": "## Initial release\r\n\r\nExpect bugs!\r\n\r\nDo NOT ask for help for the launcher. This is meant for developer use only.\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/commits/v0.1.0",
+                    "date": "2025-04-01T14:27:55Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v0.1.0/com.geode.launcher_0.1.0.ipa",
+                    "size": 2962758
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [
+                    "application-identifier",
+                    "com.apple.developer.kernel.extended-virtual-addressing",
+                    "com.apple.developer.kernel.increased-memory-limit",
+                    "com.apple.security.application-groups",
+                    "get-task-allow",
+                    "com.apple.private.MobileContainerManager.allowed",
+                    "platform-application"
+                ],
+                "privacy": {
+                    "NSMicrophoneUsageDescription": "A mod you are using is requesting this permission.",
+                    "NSCameraUsageDescription": "A mod you are using is requesting this permission.",
+                    "NSLocalNetworkUsageDescription": "This permission is needed for accessing the JIT server."
+                }
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "Geode is on iOS (for developers)!",
+            "identifier": "geode_first",
+            "caption": "Geode, has come to iOS! Now with a AltSource! Keep in mind the launcher is in the pre-release stage, meaning that it's not ready for normal use.",
+            "date": "2025-04-01T14:27:55Z",
+            "tintColor": "#272727",
+            "notify": true,
+            "appID": "com.geode.launcher"
+        },
+        {
+            "title": "Geode is on iOS!",
+            "identifier": "geode_out_to_public",
+            "caption": "Geode has come to iOS on SideStore!",
+            "date": "2025-05-03T16:14:15Z",
+            "tintColor": "#272727",
+            "notify": true,
+            "appID": "com.geode.launcher"
+        }
+    ]
+}
