@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$comment": "This JSON schema is mainly for IDE's with autocompletion",
+    "title": "AltSource News",
+    "description": "A list of news posts",
+    "type": "object",
+    "properties": {
+        "news": {
+            "type": "array",
+            "title": "List of cerificate",
+            "description": "This array will contain certificates",
+            "items": {
+              "properties": {
+                "title": {
+                    "type": "string"
+                },
+                "identifier": {
+                    "type": "string",
+                    "description": "unique identifier",
+                    "uniqueItems": true
+                },
+                "caption": {
+                    "type": "string"
+                },
+                "date": {
+                    "type": "string",
+                    "format": "date-time",
+                    "description": "The date of the news post"
+                },
+                "tintColor": {
+                    "type": "string",
+                    "examples": [ "#272727" ]
+                },
+                "notify": {
+                    "type": "boolean",
+                    "description": "Whether to notify about this news post"
+                },
+                "appID": {
+                    "type": "string",
+                    "description": "The app ID associated with the news post",
+                    "examples": [ "com.geode.launcher" ]
+                },
+                "onlyPreRelease": {
+                    "type": "boolean",
+                    "description": "(false by default) Should this post only be for the pre-release AltSource?",
+                    "default": false
+                }
+              },
+              "uniqueItems": true,
+              "additionalProperties": false,
+              "required": [ "title", "identifier", "caption", "date", "tintColor", "notify" ]
+            }
+        }
+    },
+    "required": [ "news" ]
+}

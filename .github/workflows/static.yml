@@ -7,16 +7,16 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
     permissions:
       contents: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: build repo
+      - name: Build Repository
         run: |
           output=$(mktemp -d)
           echo "OUTPUT=$output" >> $GITHUB_ENV
@@ -65,7 +65,17 @@ jobs:
           mv "debs" "$output/"
           bzip2 -kz tmp/Packages -c > "$output/Packages.bz2"
 
-      - name: deploy repo
+      - name: Build AltSource
+        run: |
+          output=${{ env.OUTPUT }}
+          echo "output dir: $output"
+          echo "Building AltSource..."
+          python3 .github/scripts/build-altsource.py
+        env:
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ github.repository_owner }}
+
+      - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         if: github.ref == 'refs/heads/main'
         with:
