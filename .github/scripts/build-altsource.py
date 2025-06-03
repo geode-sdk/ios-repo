@@ -15,11 +15,11 @@ news = {}
 
 
 baseapp = {
-    "name": "Geode Launcher",
+    "name": "Gayode Launcher",
     "bundleIdentifier": "com.geode.launcher",
-    "developerName": "Geode SDK Team",
-    "subtitle": "Geode, now on iOS",
-    "localizedDescription": "Geode, has come to iOS!",
+    "developerName": "Gayode SDK Team",
+    "subtitle": "Gayode, now on iOS! (NOW WITH 999% MORE PRIDE!)",
+    "localizedDescription": "Gayode, has come to iOS!",
     "iconURL": "https://raw.githubusercontent.com/geode-sdk/ios-launcher/main/Resources/Icons/PrideFixed.png",
     "tintColor": "#272727",
     "category": "games",

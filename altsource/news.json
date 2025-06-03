@@ -19,6 +19,15 @@
       "tintColor": "#272727",
       "notify": true,
       "appID": "com.geode.launcher"
+    },
+    {
+      "title": "Hello Soggy Mod Users!",
+      "identifier": "gayode_pride_2025",
+      "caption": "You may have noticed that our name has changed and our logo is more vibrant than usual. To celebrate the pride year, we have changed our logo and name to be gayer than ever before. Thank you for your understanding, stay modding!",
+      "date": "2025-06-01T01:25:13.287Z",
+      "tintColor": "#272727",
+      "notify": true,
+      "appID": "com.geode.launcher"
     }
   ]
 }
