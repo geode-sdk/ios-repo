@@ -20,7 +20,7 @@ baseapp = {
     "developerName": "Geode SDK Team",
     "subtitle": "Geode, now on iOS",
     "localizedDescription": "Geode, has come to iOS!",
-    "iconURL": "https://github.com/geode-sdk/ios-launcher/blob/main/Resources/Icons/PrideFixed.png",
+    "iconURL": "https://raw.githubusercontent.com/geode-sdk/ios-launcher/main/Resources/Icons/PrideFixed.png",
     "tintColor": "#272727",
     "category": "games",
     "screenshots": [
