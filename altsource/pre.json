@@ -40,6 +40,30 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
+                    "version": "999999.9.9",
+                    "localizedDescription": "Geode iOS development release for commit b9119f6b892d96982c7fef87790b394a46053afa.",
+                    "date": "2025-06-02T15:57:33Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v999999.9.9/com.geode.launcher_b9119f6.ipa",
+                    "size": 5442769
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "1.0.1",
+                    "localizedDescription": "## Changelog\r\n- Fixed StikJIT and other apps not opening automatically when pressing launch\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.0.0...v1.0.1",
+                    "date": "2025-06-02T16:03:03Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.0.1/com.geode.launcher_1.0.1.ipa",
+                    "size": 5442769
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "1.0.0",
+                    "localizedDescription": "Finally at **v1.0.0**! This adds a new icon to celebrate Pride Month, fixes bugs, and more!\r\n\r\n## Changelog\r\n- Added icon selection\r\n- Added **Pride Month** icon\r\n- Added a warning if you launch Geode with JIT without having it launch in the containerized Geometry Dash (Mainly for those that think they need to **always** launch Geode with JIT when that isn't the case) (https://github.com/geode-sdk/ios-launcher/issues/35)\r\n- Fixed bug with JIT enabler crashing on iPad when tapped on (https://github.com/geode-sdk/ios-launcher/issues/37)\r\n- Fixed bug with the launcher not knowing if Geode dylib is up to date or not (https://github.com/geode-sdk/ios-launcher/issues/36)\r\n- Fixed bug with not being able to exit settings if you're on landscape rotation in iPhone (https://github.com/geode-sdk/ios-launcher/issues/47)\r\n- Fixed Trollstore version of the launcher not rendering color wheel (uses image instead)\r\n- Fixed issue with color selection being impossible to exit on iPad\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.5.1...v1.0.0",
+                    "date": "2025-06-02T03:55:08Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.0.0/com.geode.launcher_1.0.0.ipa",
+                    "size": 5442726
+                },
+                {
+                    "minOSVersion": "14.0",
                     "version": "0.5.1",
                     "localizedDescription": "## Changelog\r\n- Added Trollstore warning to tell you to enable \"URL Scheme\" in settings\r\n- Removed Nightly being enabled by default\r\n- Added landscape rotation support for phones\r\n- Fixed bug where cancelling the update early for Geode will assume Geode was updated for nightly releases\r\n- Fixed Trollstore version of the launcher crashing when going to color picker\r\n\r\n**Expect bugs!**\r\n\r\nView the INSTALL.md guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v0.5.0...v0.5.1",
                     "date": "2025-05-03T16:14:15Z",
