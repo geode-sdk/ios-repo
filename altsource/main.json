@@ -40,6 +40,14 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
+                    "version": "1.1.0",
+                    "localizedDescription": "## Changelog\r\n- Added experimental JIT-less support!\r\n- Fixed issue with automatic launching automatically launching in TIPA version if you go back to the app.\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing. It will be updated in the future for a guide on JIT-less.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.0.1...v1.1.0",
+                    "date": "2025-06-22T16:51:15Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.1.0/com.geode.launcher_1.1.0.ipa",
+                    "size": 6033195
+                },
+                {
+                    "minOSVersion": "14.0",
                     "version": "1.0.1",
                     "localizedDescription": "## Changelog\r\n- Fixed StikJIT and other apps not opening automatically when pressing launch\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.0.0...v1.0.1",
                     "date": "2025-06-02T16:03:03Z",

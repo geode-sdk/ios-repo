@@ -41,10 +41,18 @@
                 {
                     "minOSVersion": "14.0",
                     "version": "999999.9.9",
-                    "localizedDescription": "Geode iOS development release for commit b9119f6b892d96982c7fef87790b394a46053afa.",
-                    "date": "2025-06-02T15:57:33Z",
-                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v999999.9.9/com.geode.launcher_b9119f6.ipa",
-                    "size": 5442769
+                    "localizedDescription": "Geode iOS development release for commit 50017f3affc34a677e2d0dd3f72d8b3e8d7fb303. This is meant for developers. Please look below this release for the latest stable release.",
+                    "date": "2025-06-22T22:40:54Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v999999.9.9/com.geode.launcher_50017f3.ipa",
+                    "size": 6033202
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "1.1.0",
+                    "localizedDescription": "## Changelog\r\n- Added experimental JIT-less support!\r\n- Fixed issue with automatic launching automatically launching in TIPA version if you go back to the app.\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing. It will be updated in the future for a guide on JIT-less.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.0.1...v1.1.0",
+                    "date": "2025-06-22T16:51:15Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.1.0/com.geode.launcher_1.1.0.ipa",
+                    "size": 6033195
                 },
                 {
                     "minOSVersion": "14.0",
