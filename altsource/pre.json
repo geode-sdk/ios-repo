@@ -1,9 +1,9 @@
 {
-    "name": "Gayode",
+    "name": "Geode",
     "identifier": "org.geode-sdk.altsource",
     "subtitle": "Offically on iOS",
-    "description": "Geode has come to iOS and iPadOS! (BUT NOW PRIDE)",
-    "iconURL": "https://ios-repo.geode-sdk.org/img/AltSourceIcon-Pride.png",
+    "description": "Geode has come to iOS and iPadOS!",
+    "iconURL": "https://ios-repo.geode-sdk.org/img/AltSourceIcon.png",
     "headerURL": "https://ios-repo.geode-sdk.org/img/AltSourceHeader-SwevlyBG.jpg",
     "website": "https://geode-sdk.org",
     "tintColor": "#272727",
@@ -14,10 +14,10 @@
         {
             "name": "Geode (Pre-Release)",
             "bundleIdentifier": "com.geode.launcher",
-            "developerName": "Gayode SDK Team",
-            "subtitle": "Gayode, now on iOS! (NOW WITH 999% MORE PRIDE!)",
-            "localizedDescription": "Gayode, has come to iOS!",
-            "iconURL": "https://raw.githubusercontent.com/geode-sdk/ios-launcher/main/Resources/Icons/PrideFixed.png",
+            "developerName": "Geode SDK Team",
+            "subtitle": "Geode, now on iOS!",
+            "localizedDescription": "Geode, has come to iOS!",
+            "iconURL": "https://raw.githubusercontent.com/geode-sdk/ios-launcher/main/Resources/Icons/Default.png",
             "tintColor": "#272727",
             "category": "games",
             "screenshots": [
@@ -41,10 +41,18 @@
                 {
                     "minOSVersion": "14.0",
                     "version": "999999.9.9",
-                    "localizedDescription": "Geode iOS development release for commit 50017f3affc34a677e2d0dd3f72d8b3e8d7fb303. This is meant for developers. Please look below this release for the latest stable release.",
-                    "date": "2025-06-22T22:40:54Z",
-                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v999999.9.9/com.geode.launcher_50017f3.ipa",
-                    "size": 6033202
+                    "localizedDescription": "Geode iOS development release for commit 9c9844ccf6f8c34b5bdd3e7252af41deec436392. This is meant for developers. Please look below this release for the latest stable release.",
+                    "date": "2025-06-27T12:03:36Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v999999.9.9/com.geode.launcher_9c9844c.ipa",
+                    "size": 8217190
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "1.2.0",
+                    "localizedDescription": "## Changelog\r\n- Added **Trans** icon\r\n- Made launching with JIT-less much more quicker (reducing signing & patching)\r\n- Added a JIT-less diagnose view\r\n- Removed the requirement of mobile provision file when importing certificate (p12 file is now only needed)\r\n- Fixed iOS 26 beta 2 from crashing upon launch (https://github.com/geode-sdk/ios-launcher/issues/57)\r\n- Fixed safe mode not only patching with Geode and instead patching with other mods\r\n- Fixed mods sometimes not patching unless the game is relaunched\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.1.0...v1.2.0",
+                    "date": "2025-06-26T17:13:17Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.2.0/com.geode.launcher_1.2.0.ipa",
+                    "size": 8217181
                 },
                 {
                     "minOSVersion": "14.0",
@@ -176,6 +184,15 @@
             "title": "Hello Soggy Mod Users!",
             "identifier": "gayode_pride_2025",
             "caption": "You may have noticed that our name has changed and our logo is more vibrant than usual. To celebrate the pride year, we have changed our logo and name to be gayer than ever before. Thank you for your understanding, stay modding!",
+            "date": "2025-06-01T01:25:13.287Z",
+            "tintColor": "#272727",
+            "notify": true,
+            "appID": "com.geode.launcher"
+        },
+        {
+            "title": "Updates v1.1.0 and v1.2.0!",
+            "identifier": "geode_1.2.0",
+            "caption": "Hello, everyone now there is support for jitless (experimental), this also comes in handy for iOS/iPadOS 26 as Apple patched the StikJIT/StikDebug JIT",
             "date": "2025-06-01T01:25:13.287Z",
             "tintColor": "#272727",
             "notify": true,
