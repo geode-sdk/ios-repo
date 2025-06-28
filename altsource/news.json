@@ -33,7 +33,7 @@
       "title": "Updates v1.1.0 and v1.2.0!",
       "identifier": "geode_1.2.0",
       "caption": "Hello, everyone now there is support for jitless (experimental), this also comes in handy for iOS/iPadOS 26 as Apple patched the StikJIT/StikDebug JIT",
-      "date": "2025-06-01T01:25:13.287Z",
+      "date": "2025-06-26T17:13:17Z",
       "tintColor": "#272727",
       "notify": true,
       "appID": "com.geode.launcher"
