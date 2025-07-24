@@ -77,7 +77,7 @@ firstprerel = True
 
 for release in releases:
     if release["tag_name"] == "nightly":
-        return
+        continue
     if firstprerel or firstrel:
         entitlements = []
         privacy = {}
