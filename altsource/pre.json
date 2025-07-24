@@ -40,11 +40,11 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
-                    "version": "999999.9.9",
-                    "localizedDescription": "Geode iOS development release for commit 9c9844ccf6f8c34b5bdd3e7252af41deec436392. This is meant for developers. Please look below this release for the latest stable release.",
-                    "date": "2025-06-27T12:03:36Z",
-                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v999999.9.9/com.geode.launcher_9c9844c.ipa",
-                    "size": 8217190
+                    "version": "1.3.0",
+                    "localizedDescription": "## Changelog\r\n- Added Experimental Enterprise Certificate support, aka Enterprise Mode! (View the guide on how to install!)\r\n- Added JIT-Less support for LiveContainer (View the guide on how to install!)\r\n- Added **9 new app icons**!\r\n- Changed binary name to be just Geode (to make it easier to find crashlogs)\r\n- Added :fish:\r\n- Added an option to allow you to import a certificate manually if you sideloaded with SideStore\r\n- Manually reopening in LiveContainer is no longer required\r\n- Fixed Invalid Signature (https://github.com/geode-sdk/ios-launcher/issues/66)\r\n- Fixed error with \"color.done\" not being \"Done\"\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.2.0...v1.3.0",
+                    "date": "2025-07-24T20:12:11Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.3.0/com.geode.launcher_1.3.0.ipa",
+                    "size": 5084069
                 },
                 {
                     "minOSVersion": "14.0",
@@ -150,8 +150,7 @@
                     "com.apple.developer.kernel.increased-memory-limit",
                     "com.apple.security.application-groups",
                     "get-task-allow",
-                    "com.apple.private.MobileContainerManager.allowed",
-                    "platform-application"
+                    "com.apple.private.MobileContainerManager.allowed"
                 ],
                 "privacy": {
                     "NSMicrophoneUsageDescription": "A mod you are using is requesting this permission.",

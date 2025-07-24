@@ -40,6 +40,14 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
+                    "version": "1.3.0",
+                    "localizedDescription": "## Changelog\r\n- Added Experimental Enterprise Certificate support, aka Enterprise Mode! (View the guide on how to install!)\r\n- Added JIT-Less support for LiveContainer (View the guide on how to install!)\r\n- Added **9 new app icons**!\r\n- Changed binary name to be just Geode (to make it easier to find crashlogs)\r\n- Added :fish:\r\n- Added an option to allow you to import a certificate manually if you sideloaded with SideStore\r\n- Manually reopening in LiveContainer is no longer required\r\n- Fixed Invalid Signature (https://github.com/geode-sdk/ios-launcher/issues/66)\r\n- Fixed error with \"color.done\" not being \"Done\"\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.2.0...v1.3.0",
+                    "date": "2025-07-24T20:12:11Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.3.0/com.geode.launcher_1.3.0.ipa",
+                    "size": 5084069
+                },
+                {
+                    "minOSVersion": "14.0",
                     "version": "1.2.0",
                     "localizedDescription": "## Changelog\r\n- Added **Trans** icon\r\n- Made launching with JIT-less much more quicker (reducing signing & patching)\r\n- Added a JIT-less diagnose view\r\n- Removed the requirement of mobile provision file when importing certificate (p12 file is now only needed)\r\n- Fixed iOS 26 beta 2 from crashing upon launch (https://github.com/geode-sdk/ios-launcher/issues/57)\r\n- Fixed safe mode not only patching with Geode and instead patching with other mods\r\n- Fixed mods sometimes not patching unless the game is relaunched\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.1.0...v1.2.0",
                     "date": "2025-06-26T17:13:17Z",
@@ -86,8 +94,7 @@
                     "com.apple.developer.kernel.increased-memory-limit",
                     "com.apple.security.application-groups",
                     "get-task-allow",
-                    "com.apple.private.MobileContainerManager.allowed",
-                    "platform-application"
+                    "com.apple.private.MobileContainerManager.allowed"
                 ],
                 "privacy": {
                     "NSMicrophoneUsageDescription": "A mod you are using is requesting this permission.",
