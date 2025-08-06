@@ -40,6 +40,22 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
+                    "version": "1.3.2",
+                    "localizedDescription": "Small update but an important one for mods that patch in JIT-less!\r\n## Changelog\r\n- Fixed patching issue with JIT-less where it doesn't patch the right size\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.3.1...v1.3.2",
+                    "date": "2025-08-03T14:51:25Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.3.2/com.geode.launcher_1.3.2.ipa",
+                    "size": 5088379
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "1.3.1",
+                    "localizedDescription": "## Changelog\r\n- Fixed JIT-Less crash upon playing any SFX with a pitch\r\n- Enforced reinstalling the Helper if checksums don't match (https://github.com/geode-sdk/ios-launcher/issues/75)\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.3.0...v1.3.1",
+                    "date": "2025-08-03T00:05:48Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.3.1/com.geode.launcher_1.3.1.ipa",
+                    "size": 5088272
+                },
+                {
+                    "minOSVersion": "14.0",
                     "version": "1.3.0",
                     "localizedDescription": "## Changelog\r\n- Added Experimental Enterprise Certificate support, aka Enterprise Mode! (View the guide on how to install!)\r\n- Added JIT-Less support for LiveContainer (View the guide on how to install!)\r\n- Added **9 new app icons**!\r\n- Changed binary name to be just Geode (to make it easier to find crashlogs)\r\n- Added :fish:\r\n- Added an option to allow you to import a certificate manually if you sideloaded with SideStore\r\n- Manually reopening in LiveContainer is no longer required\r\n- Fixed Invalid Signature (https://github.com/geode-sdk/ios-launcher/issues/66)\r\n- Fixed error with \"color.done\" not being \"Done\"\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.2.0...v1.3.0",
                     "date": "2025-07-24T20:12:11Z",
