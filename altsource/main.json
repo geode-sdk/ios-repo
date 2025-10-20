@@ -40,6 +40,22 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
+                    "version": "1.4.1",
+                    "localizedDescription": "A minor bug fix update\r\n# Changelog\r\n- Fixed certificate being required for devices not on iOS 26\r\n- Fixed LiveContainer not setting the environment variable if TXM is true\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.4.0...v1.4.1",
+                    "date": "2025-10-01T21:05:27Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.4.1/com.geode.launcher_1.4.1.ipa",
+                    "size": 8288323
+                },
+                {
+                    "minOSVersion": "14.0",
+                    "version": "1.4.0",
+                    "localizedDescription": "An update that brings JIT support to iOS 26! With the addition of many features and fixes!\r\n## Changelog\r\n- Added **JIT support for iOS 26**, utilizing StikDebug (Please attach the TuliphookJIT.js script to Geode in StikDebug or wait for an update for it to automatically assign it) (https://github.com/geode-sdk/ios-launcher/issues/70)\r\n- Added a new **Aspect Ratio** setting to change the Aspect Ratio of GD. (Only works with JIT and JIT-Less)\r\n- Updated Helper error text if it's outdated to give exactly what to do\r\n- Added an experimental **Platform Console** for Developers\r\n- Fixed issue where tapping **Import Certificate Manually** while the app is signed without entitlements causes a different error than what is expected to show\r\n- Fixed grammar mistake with \"launcher\" when tapping **Force Reset Patching**\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.3.2...v1.4.0",
+                    "date": "2025-10-01T16:05:40Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.4.0/com.geode.launcher_1.4.0.ipa",
+                    "size": 8288655
+                },
+                {
+                    "minOSVersion": "14.0",
                     "version": "1.3.2",
                     "localizedDescription": "Small update but an important one for mods that patch in JIT-less!\r\n## Changelog\r\n- Fixed patching issue with JIT-less where it doesn't patch the right size\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.3.1...v1.3.2",
                     "date": "2025-08-03T14:51:25Z",
