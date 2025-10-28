@@ -64,6 +64,7 @@ jobs:
 
           mv "debs" "$output/"
           bzip2 -kz tmp/Packages -c > "$output/Packages.bz2"
+          cp tmp/Packages "$output/Packages"
 
       - name: Build AltSource
         run: |
