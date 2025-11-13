@@ -40,6 +40,14 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
+                    "version": "1.4.2",
+                    "localizedDescription": "a bug fix update that was long overdue\r\n\r\n- Certificates are no longer required for iOS 26 JIT (Geode may take longer to load but this comes with a benefit that you no longer need to import certificates)\r\n- Fixed issue with Safe Mode giving a \"No certificate found\" error for Enterprise Mode\r\n- Rephrased that AltStore can be used to import certificate\r\n- Allowed importing certificates on LiveContainer (somewhat)\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.4.1...v1.4.2",
+                    "date": "2025-11-10T15:36:29Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.4.2/com.geode.launcher_1.4.2.ipa",
+                    "size": 8281224
+                },
+                {
+                    "minOSVersion": "14.0",
                     "version": "1.4.1",
                     "localizedDescription": "A minor bug fix update\r\n# Changelog\r\n- Fixed certificate being required for devices not on iOS 26\r\n- Fixed LiveContainer not setting the environment variable if TXM is true\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.4.0...v1.4.1",
                     "date": "2025-10-01T21:05:27Z",
