@@ -40,6 +40,14 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
+                    "version": "1.5.2",
+                    "localizedDescription": "This fixes the infinite checking for update problem...\r\n\r\n- Added Force Update back (with warning)\r\n- Fixed TrollStore (TIPA) version from crashing upon launch\r\n- Fixed checking for updates not ending and taking forever\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.5.1...v1.5.2",
+                    "date": "2026-02-24T01:54:11Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.5.2/com.geode.launcher_1.5.2.ipa",
+                    "size": 10354103
+                },
+                {
+                    "minOSVersion": "14.0",
                     "version": "1.5.1",
                     "localizedDescription": "A short update that fixes an issue with the wrong offset, as I forgot to change it before\r\n\r\n- Fixed Enterprise Mode from looping to a \"You must launch the Helper with the launcher\"\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.5.0...v1.5.1",
                     "date": "2026-02-23T01:50:53Z",
