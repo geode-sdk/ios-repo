@@ -40,6 +40,14 @@
             "versions": [
                 {
                     "minOSVersion": "14.0",
+                    "version": "1.5.4",
+                    "localizedDescription": "Sapphire SDK!\r\n\r\n- Replaced default logo with Sapphire SDK\r\n- Fixed PDF rendering for iOS 18+ (hopefully)\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.5.3...v1.5.4",
+                    "date": "2026-04-01T07:09:04Z",
+                    "downloadURL": "https://github.com/geode-sdk/ios-launcher/releases/download/v1.5.4/com.geode.launcher_1.5.4.ipa",
+                    "size": 13242128
+                },
+                {
+                    "minOSVersion": "14.0",
                     "version": "1.5.3",
                     "localizedDescription": "An important bug fix that fixes mods that require static hook patching, and more!\r\n\r\n- Made iOS 26 use JIT-Less by default on the setup\r\n- Disabled Automatic Launch for Enterprise Mode\r\n- Disabled Launch without Patching for non-developers, requiring Developer Mode to use\r\n- Fixed static hook patching causing Geometry Dash to not launch anymore\r\n- Fixed the wrong link for the PC guide on the setup\r\n\r\nView the [INSTALL.md](https://github.com/geode-sdk/ios-launcher/blob/main/INSTALL.md) guide on installing.\r\n\r\n**Full Changelog**: https://github.com/geode-sdk/ios-launcher/compare/v1.5.2...v1.5.3",
                     "date": "2026-03-15T20:06:48Z",
