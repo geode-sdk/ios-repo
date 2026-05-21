@@ -1,8 +1,8 @@
 {
   "name": "Geode",
   "identifier": "org.geode-sdk.altsource",
-  "subtitle": "Offically on iOS",
-  "description": "Geode has come to iOS and iPadOS!",
+  "subtitle": "Official AltSource for Geode!",
+  "description": "Manages installing and launching Geometry Dash with Geode for iOS.",
   "iconURL": "https://ios-repo.geode-sdk.org/img/AltSourceIcon.png",
   "headerURL": "https://ios-repo.geode-sdk.org/img/AltSourceHeader-SwevlyBG.jpg",
   "website": "https://geode-sdk.org",
