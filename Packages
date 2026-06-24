@@ -142,3 +142,51 @@ MD5sum: 0a08b0f93a31ef6119f72706c77db128
 SHA256: 1f93e28a18b48af8e4f70e635c2159f34de17c025c241a1a10f17b57270e43f8
 
 
+Package: gay.rooot.geodeinject
+Name: Geode Inject
+Description: Injects Geode into Geometry Dash.
+Maintainer: rooot
+Author: rooot
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/RoootTheFox/geode-inject-ios/meow/misc/icon.png
+Architecture: iphoneos-arm
+Version: 0.0.6
+Filename: ./debs/gay.rooot.geodeinject_0.0.6_iphoneos-arm.deb
+Size: 16478
+MD5sum: 7f775d19de23ef0d93673216b121f8f0
+SHA256: 3b81e2a3fcfd7405a2cd0c174ab63625e230850750a7846a6cff2eae511d54b4
+
+
+Package: gay.rooot.geodeinject
+Name: Geode Inject (rootless)
+Description: Injects Geode into Geometry Dash.
+Maintainer: rooot
+Author: rooot
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/RoootTheFox/geode-inject-ios/meow/misc/icon.png
+Architecture: iphoneos-arm64
+Version: 0.0.6
+Filename: ./debs/gay.rooot.geodeinject_0.0.6_iphoneos-arm64.deb
+Size: 16572
+MD5sum: 98342fd9b249c2f834306a542c946f63
+SHA256: 67350257f36df2e2c4e1a9b648fe7ca9ffa69b30c16f03f2e91eea02aaf163f0
+
+
+Package: gay.rooot.geodeinject
+Name: Geode Inject (roothide)
+Description: Injects Geode into Geometry Dash.
+Maintainer: rooot
+Author: rooot
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Icon: https://raw.githubusercontent.com/RoootTheFox/geode-inject-ios/meow/misc/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Filename: ./debs/gay.rooot.geodeinject_0.0.6_iphoneos-arm64e.deb
+Size: 16500
+MD5sum: 1f2a883385e9a560d615c676e3f5446a
+SHA256: 4e8f475c4fc72a34bed9280ab387b94b6d6ef55dc9b7cee9a7c560b565f9d883
+
+
