@@ -49,7 +49,6 @@ with open("altsource/base.json", "r") as f:
 with open("altsource/news.json", "r") as f:
     news = json.load(f)
 
-
 main = copy.deepcopy(base)
 pre = copy.deepcopy(base)
 mainapp = copy.deepcopy(baseapp)
